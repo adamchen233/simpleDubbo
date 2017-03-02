@@ -21,10 +21,6 @@
 
 在客户端方,spring配置bean:
 ```
-<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns="http://www.springframework.org/schema/beans"
-    xsi:schemaLocation="http://www.springframework.org/schema/beans
-    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
     <bean id="consumerBean" class="com.adamchen233.simpleDubbo.ConsumerBean">
         <property name="interfaceName" value="{your own interfaceName}"/>
         <property name="version" value="1.0.0"/>
